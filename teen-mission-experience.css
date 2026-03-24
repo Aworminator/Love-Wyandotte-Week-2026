@@ -210,3 +210,30 @@ nav a:hover,
 nav a.active {
   background-color: #555;
 }
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.mid-header,
+.download {
+  background-color: rgba(128, 128, 128, 0.595);
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.download:hover {
+  transform: scale(1.1);
+}
+
+.download:active {
+  transform: scale(0.9);
+}
