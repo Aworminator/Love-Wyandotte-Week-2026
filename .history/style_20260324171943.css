@@ -126,9 +126,5 @@ footer p {
 }
 
 .leader-download:hover {
-  transform: scale(1.1);
-}
-
-.leader-download:active {
-  transform: scale(0.9);
+  padding: 11px;
 }

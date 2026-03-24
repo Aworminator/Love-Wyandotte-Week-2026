@@ -109,26 +109,12 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 .leader-download {
   text-decoration: none;
   color: black;
   font-size: 1.2em;
-  font-weight: 550;
-  margin-bottom: 20px;
-  width: 200px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #8dbf48;
-  box-shadow: 14px 10px 20px 0px rgba(0, 0, 0, 0.423);
-  color: white;
-}
-
-.leader-download:hover {
-  transform: scale(1.1);
-}
-
-.leader-download:active {
-  transform: scale(0.9);
+  font-weight: ;
 }
