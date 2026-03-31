@@ -26,25 +26,22 @@ header {
   justify-content: center;
 }
 
-.mid-info,
-.location {
+.mid-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(232, 232, 232);
   width: 90vw;
   height: 90vh;
-  margin: 8px;
+}
+
+.mid-body-photos {
+display: flex;
+align-items: center;
 }
 
 .summer-photos {
   height: 40vh;
-}
-
-.mid-paragraph {
-  width: 60vw;
-  padding-top: 30px;
-  font-weight: 600;
 }
 
 nav ul {

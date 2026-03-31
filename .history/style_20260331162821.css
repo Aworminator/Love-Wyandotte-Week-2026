@@ -19,32 +19,10 @@ header {
   z-index: 1000;
 }
 
-.mid-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.mid-info,
-.location {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(232, 232, 232);
-  width: 90vw;
-  height: 90vh;
-  margin: 8px;
-}
-
-.summer-photos {
-  height: 40vh;
-}
-
-.mid-paragraph {
-  width: 60vw;
-  padding-top: 30px;
-  font-weight: 600;
+.mid-info {
+  background-color: red;
+  width: 100vw;
+  height: 600px;
 }
 
 nav ul {

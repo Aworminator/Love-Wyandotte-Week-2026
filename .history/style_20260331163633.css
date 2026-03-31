@@ -1,5 +1,10 @@
 /* General Body Styles */
 body {
+  display: flex;
+  flex-direction: ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
@@ -19,32 +24,13 @@ header {
   z-index: 1000;
 }
 
-.mid-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.mid-info,
-.location {
+.mid-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(232, 232, 232);
   width: 90vw;
   height: 90vh;
-  margin: 8px;
-}
-
-.summer-photos {
-  height: 40vh;
-}
-
-.mid-paragraph {
-  width: 60vw;
-  padding-top: 30px;
-  font-weight: 600;
 }
 
 nav ul {
