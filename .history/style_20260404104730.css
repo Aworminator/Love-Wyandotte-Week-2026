@@ -166,21 +166,10 @@ footer p {
     font-size: 0.5em;
   }
   .summer-photos {
-    height: 15vh;
-    margin: 10px;
+    height: 20vh;
   }
 
   .mid-body-photos {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .banner-text h1 {
-    font-size: 2em;
-    width: 40vw;
-  }
-
-  nav a {
-    font-size: 1.5em;
+    
   }
 }

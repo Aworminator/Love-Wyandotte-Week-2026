@@ -174,13 +174,4 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-
-  .banner-text h1 {
-    font-size: 2em;
-    width: 40vw;
-  }
-
-  nav a {
-    font-size: 1.5em;
-  }
 }
