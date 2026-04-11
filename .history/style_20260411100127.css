@@ -1,0 +1,193 @@
+
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header and Navigation */
+header {
+  background: linear-gradient(40deg, #fdbb2d 0%, #22c360 100%);
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.mid-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mid-info,
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(232, 232, 232);
+  width: 90vw;
+  height: 90vh;
+  margin: 8px;
+}
+
+.summer-photos {
+  height: 40vh;
+}
+
+.mid-paragraph {
+  width: 60vw;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #bebebe;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 100px;
+  background: #22c360;
+  background: linear-gradient(0deg, rgba(34, 195, 96, 1) 0%, #fdbb2d 100%);
+}
+
+#logo {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.315);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(40deg, #fdbb2d 0%, #22c360 100%);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.volunteer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leader-download {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 550;
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #8dbf48;
+  box-shadow: 14px 10px 20px 0px rgba(0, 0, 0, 0.423);
+  color: white;
+}
+
+.leader-download:hover {
+  transform: scale(1.1);
+}
+
+.leader-download:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.5em;
+  }
+  .summer-photos {
+    height: 15vh;
+    margin: 10px;
+  }
+
+  .mid-body-photos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-text h1 {
+    font-size: 2em;
+    width: 40vw;
+  }
+
+  nav a {
+    font-size: 1.5em;
+  }
+}
