@@ -1,0 +1,29 @@
+Normal
+
+.info,
+.gatheringBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+
+
+media query
+
+.flyer-info,
+  .outdoor-flyer-info {
+    padding: 10px;
+    width: 400px;
+    font-size: 2em;
+  }
+
+  .bash-at-bishop,
+  .outdoor-flyer {
+    max-inline-size: 70vh;
+  }
+
+

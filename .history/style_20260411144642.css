@@ -79,8 +79,7 @@ nav a.active {
   padding: 10px;
 }
 
-.info,
-.gatheringBody {
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,13 +110,11 @@ nav a.active {
   padding: 50px;
 }
 
-.bash-at-bishop,
-.outdoor-flyer {
+.bash-at-bishop, . {
   max-inline-size: 50vh;
 }
 
-.flyer-info,
-.outdoor-flyer-info {
+.flyer-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,35 +143,8 @@ footer {
   margin-top: 50px;
 }
 
-.download {
-  background: linear-gradient(40deg, #6fafc2 0%, #a7cf5c 100%);
-  padding: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  color: white;
-  margin-top: 10px;
-  display: inline-block;
-}
-
-.download:hover {
-  transform: scale(1.1);
-}
-
-.download:active {
-  transform: scale(0.9);
-}
-
-.volunteer-download {
-  text-align: center;
-}
-
-.volunteer-form {
-  margin-top: 40px;
-}
-
 @media (min-width: 1024px) {
-  .bash-at-bishop,
-  .outdoor-flyer {
+  .bash-at-bishop {
     max-inline-size: 70vh;
   }
 
@@ -186,8 +156,7 @@ footer {
     width: 100%;
   }
 
-  .flyer-info,
-  .outdoor-flyer-info {
+  .flyer-info {
     padding: 10px;
     width: 400px;
     font-size: 2em;

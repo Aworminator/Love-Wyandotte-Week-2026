@@ -146,32 +146,6 @@ footer {
   margin-top: 50px;
 }
 
-.download {
-  background: linear-gradient(40deg, #6fafc2 0%, #a7cf5c 100%);
-  padding: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  color: white;
-  margin-top: 10px;
-  display: inline-block;
-}
-
-.download:hover {
-  transform: scale(1.1);
-}
-
-.download:active {
-  transform: scale(0.9);
-}
-
-.volunteer-download {
-  text-align: center;
-}
-
-.volunteer-form {
-  margin-top: 40px;
-}
-
 @media (min-width: 1024px) {
   .bash-at-bishop,
   .outdoor-flyer {

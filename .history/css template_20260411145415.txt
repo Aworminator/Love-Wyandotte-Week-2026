@@ -1,0 +1,10 @@
+media query
+
+.flyer-info,
+  .outdoor-flyer-info {
+    padding: 10px;
+    width: 400px;
+    font-size: 2em;
+  }
+
+  
