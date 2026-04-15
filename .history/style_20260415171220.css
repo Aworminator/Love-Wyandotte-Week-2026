@@ -191,8 +191,6 @@ nav a.active {
 
 .volunteer-buttons {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .photo-container {
@@ -331,6 +329,6 @@ footer {
 
   .volunteer-buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }

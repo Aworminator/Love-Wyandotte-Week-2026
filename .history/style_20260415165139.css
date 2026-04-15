@@ -1,3 +1,7 @@
+/* =========================
+   GLOBAL DESIGN SYSTEM
+========================= */
+
 :root {
   --primary: #6fafc2;
   --secondary: #a7cf5c;
@@ -5,6 +9,7 @@
   --light: #ffffff;
 }
 
+/* RESET + BASE */
 body {
   margin: 0;
   display: flex;
@@ -16,6 +21,7 @@ body {
   line-height: 1.6;
 }
 
+/* HEADINGS */
 h1,
 h2,
 h3 {
@@ -27,6 +33,10 @@ h3 {
 section {
   padding: 60px 20px;
 }
+
+/* =========================
+   HEADER / NAV
+========================= */
 
 header {
   background: linear-gradient(40deg, var(--secondary), var(--primary));
@@ -77,10 +87,13 @@ nav a.active {
   transform: translateY(-2px);
 }
 
+/* =========================
+   BANNER / HERO
+========================= */
+
 .banner {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -93,7 +106,7 @@ nav a.active {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.048);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 #logo {
@@ -124,6 +137,10 @@ nav a.active {
   backdrop-filter: blur(4px);
 }
 
+/* =========================
+   CONTENT STRUCTURE
+========================= */
+
 .info,
 .gatheringBody,
 .volunteer-page,
@@ -131,7 +148,7 @@ nav a.active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .info-container h1 {
@@ -149,51 +166,9 @@ nav a.active {
   padding: 20px;
 }
 
-.signup-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-}
-
-/* SIGNUP BUTTONS */
-.sign-up-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 220px;
-  height: 120px;
-
-  background: linear-gradient(40deg, var(--primary), var(--secondary));
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-
-  border-radius: 16px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-align: center;
-
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-  transition: all 0.25s ease;
-}
-
-.sign-up-icon:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-}
-
-.sign-up-icon:active {
-  transform: scale(0.95);
-}
-
-.volunteer-buttons {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
+/* =========================
+   IMAGES
+========================= */
 
 .photo-container {
   display: flex;
@@ -230,6 +205,10 @@ nav a.active {
   transform: scale(1.03);
 }
 
+/* =========================
+   INFO CARDS
+========================= */
+
 .flyer-info,
 .outdoor-flyer-info {
   display: flex;
@@ -256,6 +235,10 @@ nav a.active {
   flex-direction: column;
   align-items: center;
 }
+
+/* =========================
+   BUTTONS
+========================= */
 
 .download,
 .basketball-signup {
@@ -284,6 +267,10 @@ nav a.active {
   transform: scale(0.95);
 }
 
+/* =========================
+   VOLUNTEER PAGE
+========================= */
+
 .volunteer-download {
   text-align: center;
 }
@@ -300,6 +287,10 @@ nav a.active {
   cursor: pointer;
 }
 
+/* =========================
+   FOOTER
+========================= */
+
 footer {
   background: linear-gradient(40deg, var(--secondary), var(--primary));
   text-align: center;
@@ -308,6 +299,10 @@ footer {
   padding: 20px;
   margin-top: auto;
 }
+
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media (min-width: 1024px) {
   .bash-at-bishop,
@@ -327,10 +322,5 @@ footer {
   .outdoor-flyer-info {
     width: 400px;
     font-size: 1.5em;
-  }
-
-  .volunteer-buttons {
-    display: flex;
-    flex-direction: row;
   }
 }

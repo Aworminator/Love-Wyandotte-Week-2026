@@ -131,7 +131,7 @@ nav a.active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .info-container h1 {
@@ -147,52 +147,6 @@ nav a.active {
   margin: 0 auto;
 
   padding: 20px;
-}
-
-.signup-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-}
-
-/* SIGNUP BUTTONS */
-.sign-up-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 220px;
-  height: 120px;
-
-  background: linear-gradient(40deg, var(--primary), var(--secondary));
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-
-  border-radius: 16px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-align: center;
-
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-  transition: all 0.25s ease;
-}
-
-.sign-up-icon:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-}
-
-.sign-up-icon:active {
-  transform: scale(0.95);
-}
-
-.volunteer-buttons {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .photo-container {
@@ -327,10 +281,5 @@ footer {
   .outdoor-flyer-info {
     width: 400px;
     font-size: 1.5em;
-  }
-
-  .volunteer-buttons {
-    display: flex;
-    flex-direction: row;
   }
 }

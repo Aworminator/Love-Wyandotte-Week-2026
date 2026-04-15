@@ -176,23 +176,8 @@ nav a.active {
   font-weight: bold;
   text-align: center;
 
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 25px rgba(185, 7, 7, 0.4);
   transition: all 0.25s ease;
-}
-
-.sign-up-icon:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-}
-
-.sign-up-icon:active {
-  transform: scale(0.95);
-}
-
-.volunteer-buttons {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .photo-container {
@@ -327,10 +312,5 @@ footer {
   .outdoor-flyer-info {
     width: 400px;
     font-size: 1.5em;
-  }
-
-  .volunteer-buttons {
-    display: flex;
-    flex-direction: row;
   }
 }
