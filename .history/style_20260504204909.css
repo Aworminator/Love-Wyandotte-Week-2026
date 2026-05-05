@@ -131,7 +131,12 @@ nav a.active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* gap: 30px; */
+  /* width: 100%; */
+}
+
+.gatheringBody {
+  flex-wrap: wrap;
+  width: 1--%;
 }
 
 .info-container h1 {
@@ -253,17 +258,14 @@ nav a.active {
 
 .outdoor-flyer-info {
   margin: 30px;
-  /* height: 700px;
-  width: 500px; */
+  height: 700px;
+  width: 500px;
 }
 
 .bishop-flyer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  flex: 1 1 calc(50% - 20px); /* 2 per row max */
-  max-width: calc(70% - 20px);
 }
 
 .download,
