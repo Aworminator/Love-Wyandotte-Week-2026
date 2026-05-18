@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteer Sign-Up</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      background: linear-gradient(90deg, #a8cf5f, #71b5d6);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .main-content h1 {
+      font-size: 3rem;
+      margin-bottom: 40px;
+    }
+
+    .signup-grid {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .signup-card {
+      background: linear-gradient(135deg, #8fcf6c, #77b7d6);
+      padding: 30px 20px;
+      border-radius: 20px;
+      color: white;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      transition: 0.3s ease;
+    }
+
+    .signup-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }
+
+    .signup-card h2 {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .signup-btn {
+      display: inline-block;
+      background: white;
+      color: #4d8fa8;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .signup-btn:hover {
+      background: #222;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: linear-gradient(90deg, #a8cf5f, #71b5d6);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      .main-content h1 {
+        font-size: 2.2rem;
+      }
+
+      nav {
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Outdoor Gathering</a>
+    <a href="#">Volunteer Sign-Up</a>
+    <a href="#">Teen Mission</a>
+    <a href="#">Basketball Sign-Up</a>
+  </nav>
+
+  <section class="main-content">
+    <h1>Volunteer Sign-Up</h1>
+
+    <div class="signup-grid">
+
+      <div class="signup-card">
+        <h2>Foster Closet</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64102822-downriver" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Plarners</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64102824-plarner" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Shelter to Home</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64102913-shelter" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>3 on 3 Tournament</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64102913-shelter" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Wyandotte Police Department</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103181-wyandotte" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Butterfly Garden</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103197-butterfly" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Basketball Clinic</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103576-basketball" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Wilson Middle School Courtyards</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103709-wilson" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Safety Town</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103848-safety" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Salvation Army</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103161-salvation" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Food Pantry</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64103037-food" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+      <div class="signup-card">
+        <h2>Brown Bag Blessings</h2>
+        <a class="signup-btn" href="https://www.signupgenius.com/go/10C0E4AAFAE2CA7F9C61-64102671-brown" target="_blank">
+          Sign Up
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    Love Wyandotte Week 2026
+  </footer>
+
+</body>
+</html>
