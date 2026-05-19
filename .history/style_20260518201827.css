@@ -97,12 +97,8 @@ nav a.active {
 }
 
 #logo {
-  width: 100%;
   max-width: 500px;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  display: block;
-  margin: 20px auto;
+  /* max-height: 500px; */
 }
 
 .banner img {
@@ -206,18 +202,14 @@ nav a.active {
 }
 
 .info-photos {
-  max-inline-size: 50vw;
+  max-inline-size: 30vw;
   margin: 10px;
 }
 
 .bash-at-bishop,
 .outdoor-flyer,
 .volunteer-image {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 20px;
+  max-inline-size: 50vh;
   margin: 20px;
 }
 
@@ -267,11 +259,12 @@ nav a.active {
 
 .bishop-flyer {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  flex: 1 1 calc(50% - 20px);
+  flex: 1 1 calc(50% - 20px); 
+  max-width: calc(70% - 20px);
 }
 
 .download,
@@ -337,9 +330,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
     width: 100%;
-    max-width: calc(80% - 20px);
   }
 
   .flyer-info,
@@ -351,10 +342,5 @@ footer {
   .volunteer-buttons {
     display: flex;
     flex-direction: row;
-  }
-
-  .info-photos {
-    max-inline-size: 30vw;
-    margin: 10px;
   }
 }

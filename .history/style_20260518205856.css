@@ -98,11 +98,7 @@ nav a.active {
 
 #logo {
   width: 100%;
-  max-width: 500px;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  display: block;
-  margin: 20px auto;
+  max-width: ;
 }
 
 .banner img {
@@ -206,7 +202,7 @@ nav a.active {
 }
 
 .info-photos {
-  max-inline-size: 50vw;
+  max-inline-size: 30vw;
   margin: 10px;
 }
 
@@ -351,10 +347,5 @@ footer {
   .volunteer-buttons {
     display: flex;
     flex-direction: row;
-  }
-
-  .info-photos {
-    max-inline-size: 30vw;
-    margin: 10px;
   }
 }

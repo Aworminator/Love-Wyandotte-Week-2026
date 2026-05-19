@@ -206,7 +206,7 @@ nav a.active {
 }
 
 .info-photos {
-  max-inline-size: 50vw;
+  max-inline-size: 30vw;
   margin: 10px;
 }
 
@@ -354,7 +354,7 @@ footer {
   }
 
   .info-photos {
-    max-inline-size: 30vw;
-    margin: 10px;
-  }
+  max-inline-size: 30vw;
+  margin: 10px;
+}
 }

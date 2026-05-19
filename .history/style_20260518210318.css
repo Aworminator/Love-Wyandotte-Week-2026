@@ -352,9 +352,4 @@ footer {
     display: flex;
     flex-direction: row;
   }
-
-  .info-photos {
-    max-inline-size: 30vw;
-    margin: 10px;
-  }
 }
